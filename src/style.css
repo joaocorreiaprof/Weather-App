@@ -1,3 +1,24 @@
-h1 {
-  color: blue;
+* {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --background-image-light: url("./images/clouds.jpg");
+  --text-color-light: #000000;
+  --background-image-dark: url("./images/dark.jpg");
+  --text-color-dark: #ffffff;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-image: var(--background-image-light);
+  background-size: cover;
+  color: var(--text-color-light);
+}
+
+.dark-mode {
+  background-image: var(--background-image-dark);
+  color: var(--text-color-dark);
 }
