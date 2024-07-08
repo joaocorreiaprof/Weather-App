@@ -16,7 +16,7 @@
   \*************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/getUrl.js */ \"./node_modules/css-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);\n// Imports\n\n\n\nvar ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ./images/clouds.jpg */ \"./src/images/clouds.jpg\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(/*! ./images/dark.jpg */ \"./src/images/dark.jpg\"), __webpack_require__.b);\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);\nvar ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_1___);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `* {\n  padding: 0;\n  margin: 0;\n  overflow: hidden;\n}\n\n:root {\n  --background-image-light: url(${___CSS_LOADER_URL_REPLACEMENT_0___});\n  --text-color-light: #000000;\n  --background-image-dark: url(${___CSS_LOADER_URL_REPLACEMENT_1___});\n  --text-color-dark: #ffffff;\n}\n\nbody {\n  width: 100vw;\n  height: 100vh;\n  background-image: var(--background-image-dark);\n  background-size: cover;\n  color: var(--text-color-dark);\n}\n\n.dark-mode {\n  background-image: var(--background-image-dark);\n  color: var(--text-color-dark);\n}\n\n/*Content*/\n.content {\n  display: flex;\n}\n\n/*Left Content*/\n.left-content {\n  height: 100vh;\n  width: 80%;\n  border: 1px solid white;\n}\n/*Right Content*/\n\n.right-content {\n  width: 20%;\n  border: 1px solid white;\n}\n`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://weather-app/./src/style.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `* {\n  padding: 0;\n  margin: 0;\n  overflow-x: hidden;\n}\n\nbody {\n  width: 100vw;\n  height: 100vh;\n  background-color: white;\n}\n\n/*Content*/\n.content {\n  display: flex;\n}\n\n/*Left Content*/\n.left-content {\n  height: 100vh;\n  width: 85%;\n  padding: 7px;\n}\n/*Right Content*/\n\n.right-content {\n  display: flex;\n  flex-direction: column;\n  width: 15%;\n  padding: 7px;\n  border-left: 1px solid #00a0c6;\n}\n\n.news-container {\n  display: flex;\n  flex-direction: column;\n  justify-content: space-between;\n  height: 100%;\n}\n\n.occurence {\n  display: flex;\n  flex-direction: column;\n  padding: 5px;\n}\n\n.style-news-image {\n  width: 100%;\n  height: 130px;\n}\n\na {\n  color: #00a0c6;\n  text-decoration: none;\n  border-bottom: 1px solid #00a0c6;\n  font-weight: bold;\n}\n\na:hover {\n  color: #025c72;\n  text-decoration: none;\n  cursor: pointer;\n}\n\n.read {\n  display: flex;\n  justify-content: end;\n}\n`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://weather-app/./src/style.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -27,16 +27,6 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((module) => {
 
 eval("\n\n/*\n  MIT License http://www.opensource.org/licenses/mit-license.php\n  Author Tobias Koppers @sokra\n*/\nmodule.exports = function (cssWithMappingToString) {\n  var list = [];\n\n  // return the list of modules as css string\n  list.toString = function toString() {\n    return this.map(function (item) {\n      var content = \"\";\n      var needLayer = typeof item[5] !== \"undefined\";\n      if (item[4]) {\n        content += \"@supports (\".concat(item[4], \") {\");\n      }\n      if (item[2]) {\n        content += \"@media \".concat(item[2], \" {\");\n      }\n      if (needLayer) {\n        content += \"@layer\".concat(item[5].length > 0 ? \" \".concat(item[5]) : \"\", \" {\");\n      }\n      content += cssWithMappingToString(item);\n      if (needLayer) {\n        content += \"}\";\n      }\n      if (item[2]) {\n        content += \"}\";\n      }\n      if (item[4]) {\n        content += \"}\";\n      }\n      return content;\n    }).join(\"\");\n  };\n\n  // import a list of modules into the list\n  list.i = function i(modules, media, dedupe, supports, layer) {\n    if (typeof modules === \"string\") {\n      modules = [[null, modules, undefined]];\n    }\n    var alreadyImportedModules = {};\n    if (dedupe) {\n      for (var k = 0; k < this.length; k++) {\n        var id = this[k][0];\n        if (id != null) {\n          alreadyImportedModules[id] = true;\n        }\n      }\n    }\n    for (var _k = 0; _k < modules.length; _k++) {\n      var item = [].concat(modules[_k]);\n      if (dedupe && alreadyImportedModules[item[0]]) {\n        continue;\n      }\n      if (typeof layer !== \"undefined\") {\n        if (typeof item[5] === \"undefined\") {\n          item[5] = layer;\n        } else {\n          item[1] = \"@layer\".concat(item[5].length > 0 ? \" \".concat(item[5]) : \"\", \" {\").concat(item[1], \"}\");\n          item[5] = layer;\n        }\n      }\n      if (media) {\n        if (!item[2]) {\n          item[2] = media;\n        } else {\n          item[1] = \"@media \".concat(item[2], \" {\").concat(item[1], \"}\");\n          item[2] = media;\n        }\n      }\n      if (supports) {\n        if (!item[4]) {\n          item[4] = \"\".concat(supports);\n        } else {\n          item[1] = \"@supports (\".concat(item[4], \") {\").concat(item[1], \"}\");\n          item[4] = supports;\n        }\n      }\n      list.push(item);\n    }\n  };\n  return list;\n};\n\n//# sourceURL=webpack://weather-app/./node_modules/css-loader/dist/runtime/api.js?");
-
-/***/ }),
-
-/***/ "./node_modules/css-loader/dist/runtime/getUrl.js":
-/*!********************************************************!*\
-  !*** ./node_modules/css-loader/dist/runtime/getUrl.js ***!
-  \********************************************************/
-/***/ ((module) => {
-
-eval("\n\nmodule.exports = function (url, options) {\n  if (!options) {\n    options = {};\n  }\n  if (!url) {\n    return url;\n  }\n  url = String(url.__esModule ? url.default : url);\n\n  // If url is already wrapped in quotes, remove them\n  if (/^['\"].*['\"]$/.test(url)) {\n    url = url.slice(1, -1);\n  }\n  if (options.hash) {\n    url += options.hash;\n  }\n\n  // Should url be wrapped?\n  // See https://drafts.csswg.org/css-values-3/#urls\n  if (/[\"'() \\t\\n]|(%20)/.test(url) || options.needQuotes) {\n    return \"\\\"\".concat(url.replace(/\"/g, '\\\\\"').replace(/\\n/g, \"\\\\n\"), \"\\\"\");\n  }\n  return url;\n};\n\n//# sourceURL=webpack://weather-app/./node_modules/css-loader/dist/runtime/getUrl.js?");
 
 /***/ }),
 
@@ -126,27 +116,57 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n\n\nconst searchButton = document.getElementById(\"searchButton\");\n\nasync function fetchWeather(searchTerm = \"aveiro\") {\n  let link = `https://api.weatherapi.com/v1/current.json?key=6faa5075dd9445cfb4c215331240207&q=${searchTerm}`;\n\n  try {\n    let response = await fetch(link, { mode: \"cors\" });\n    let data = await response.json();\n    console.log(data);\n  } catch (error) {\n    console.error(\"Error fetching the weather:\", error);\n  }\n}\n\nfetchWeather();\n\nsearchButton.addEventListener(\"click\", () => {\n  const userInput = document.getElementById(\"search\").value;\n  fetchWeather(userInput);\n});\n\n\n//# sourceURL=webpack://weather-app/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _modules_fetchWeather__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/fetchWeather */ \"./src/modules/fetchWeather.js\");\n/* harmony import */ var _modules_newsImages__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modules/newsImages */ \"./src/modules/newsImages.js\");\n\n\n\n\n(0,_modules_fetchWeather__WEBPACK_IMPORTED_MODULE_1__.fetchWeather)();\n(0,_modules_newsImages__WEBPACK_IMPORTED_MODULE_2__.displayImages)();\n\nconst searchButton = document.getElementById(\"searchButton\");\nsearchButton.addEventListener(\"click\", () => {\n  const userInput = document.getElementById(\"search\").value;\n  (0,_modules_fetchWeather__WEBPACK_IMPORTED_MODULE_1__.fetchWeather)(userInput);\n});\n\n\n//# sourceURL=webpack://weather-app/./src/index.js?");
 
 /***/ }),
 
-/***/ "./src/images/clouds.jpg":
-/*!*******************************!*\
-  !*** ./src/images/clouds.jpg ***!
-  \*******************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+/***/ "./src/modules/fetchWeather.js":
+/*!*************************************!*\
+  !*** ./src/modules/fetchWeather.js ***!
+  \*************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"7dea33e77ad499525995.jpg\";\n\n//# sourceURL=webpack://weather-app/./src/images/clouds.jpg?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   fetchWeather: () => (/* binding */ fetchWeather)\n/* harmony export */ });\nasync function fetchWeather(searchTerm = \"aveiro\") {\n  let link = `https://api.weatherapi.com/v1/current.json?key=6faa5075dd9445cfb4c215331240207&q=${searchTerm}`;\n\n  try {\n    let response = await fetch(link, { mode: \"cors\" });\n    let data = await response.json();\n    console.log(data);\n  } catch (error) {\n    console.error(\"Error fetching the weather:\", error);\n  }\n}\n\n\n\n\n//# sourceURL=webpack://weather-app/./src/modules/fetchWeather.js?");
 
 /***/ }),
 
-/***/ "./src/images/dark.jpg":
-/*!*****************************!*\
-  !*** ./src/images/dark.jpg ***!
-  \*****************************/
+/***/ "./src/modules/newsImages.js":
+/*!***********************************!*\
+  !*** ./src/modules/newsImages.js ***!
+  \***********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   displayImages: () => (/* binding */ displayImages)\n/* harmony export */ });\n/* harmony import */ var _images_news1_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../images/news1.jpg */ \"./src/images/news1.jpg\");\n/* harmony import */ var _images_news2_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../images/news2.jpg */ \"./src/images/news2.jpg\");\n/* harmony import */ var _images_news3_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../images/news3.jpg */ \"./src/images/news3.jpg\");\n\n\n\n\nfunction displayImages() {\n  const containerOne = document.getElementById(\"news1\");\n  const myImage1 = new Image();\n  myImage1.src = _images_news1_jpg__WEBPACK_IMPORTED_MODULE_0__;\n  myImage1.classList.add(\"style-news-image\");\n  containerOne.appendChild(myImage1);\n\n  const containerTwo = document.getElementById(\"news2\");\n  const myImage2 = new Image();\n  myImage2.src = _images_news2_jpg__WEBPACK_IMPORTED_MODULE_1__;\n  myImage2.classList.add(\"style-news-image\");\n  containerTwo.appendChild(myImage2);\n\n  const containerThree = document.getElementById(\"news3\");\n  const myImage3 = new Image();\n  myImage3.src = _images_news3_jpg__WEBPACK_IMPORTED_MODULE_2__;\n  myImage3.classList.add(\"style-news-image\");\n  containerThree.appendChild(myImage3);\n}\n\n\n\n\n//# sourceURL=webpack://weather-app/./src/modules/newsImages.js?");
+
+/***/ }),
+
+/***/ "./src/images/news1.jpg":
+/*!******************************!*\
+  !*** ./src/images/news1.jpg ***!
+  \******************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"57ad5458a89fe377cf75.jpg\";\n\n//# sourceURL=webpack://weather-app/./src/images/dark.jpg?");
+eval("module.exports = __webpack_require__.p + \"de460c872ff4d7bcb776.jpg\";\n\n//# sourceURL=webpack://weather-app/./src/images/news1.jpg?");
+
+/***/ }),
+
+/***/ "./src/images/news2.jpg":
+/*!******************************!*\
+  !*** ./src/images/news2.jpg ***!
+  \******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"e6b0cefcc814fef01232.jpg\";\n\n//# sourceURL=webpack://weather-app/./src/images/news2.jpg?");
+
+/***/ }),
+
+/***/ "./src/images/news3.jpg":
+/*!******************************!*\
+  !*** ./src/images/news3.jpg ***!
+  \******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"8b0489472355b0c38c6c.jpg\";\n\n//# sourceURL=webpack://weather-app/./src/images/news3.jpg?");
 
 /***/ })
 
@@ -175,9 +195,6 @@ eval("module.exports = __webpack_require__.p + \"57ad5458a89fe377cf75.jpg\";\n\n
 /******/ 		// Return the exports of the module
 /******/ 		return module.exports;
 /******/ 	}
-/******/ 	
-/******/ 	// expose the modules object (__webpack_modules__)
-/******/ 	__webpack_require__.m = __webpack_modules__;
 /******/ 	
 /************************************************************************/
 /******/ 	/* webpack/runtime/compat get default export */
@@ -253,32 +270,6 @@ eval("module.exports = __webpack_require__.p + \"57ad5458a89fe377cf75.jpg\";\n\n
 /******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
 /******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
 /******/ 		__webpack_require__.p = scriptUrl;
-/******/ 	})();
-/******/ 	
-/******/ 	/* webpack/runtime/jsonp chunk loading */
-/******/ 	(() => {
-/******/ 		__webpack_require__.b = document.baseURI || self.location.href;
-/******/ 		
-/******/ 		// object to store loaded and loading chunks
-/******/ 		// undefined = chunk not loaded, null = chunk preloaded/prefetched
-/******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
-/******/ 		var installedChunks = {
-/******/ 			"main": 0
-/******/ 		};
-/******/ 		
-/******/ 		// no chunk on demand loading
-/******/ 		
-/******/ 		// no prefetching
-/******/ 		
-/******/ 		// no preloaded
-/******/ 		
-/******/ 		// no HMR
-/******/ 		
-/******/ 		// no HMR manifest
-/******/ 		
-/******/ 		// no on chunks loaded
-/******/ 		
-/******/ 		// no jsonp function
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/nonce */
