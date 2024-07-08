@@ -6,13 +6,57 @@
     <title>Weather App</title>
   <script defer src="bundle.js"></script></head>
   <body>
-    <h1>Weather App</h1>
-    <input
-      type="search"
-      id="search"
-      name="search"
-      placeholder="Search Location..."
-    />
-    <button type="submit" id="searchButton">Search</button>
+    <div class="content">
+      <div class="left-content">
+        <h1>Weather App</h1>
+        <input
+          type="search"
+          id="search"
+          name="search"
+          placeholder="Search Location..."
+        />
+        <button type="submit" id="searchButton">Search</button>
+      </div>
+      <div class="right-content">
+        <h2>Weather news</h2>
+        <div class="news-container">
+          <div class="occurence">
+            <h3>O que se passa com o tempo?</h3>
+            <div class="occurence-picture"></div>
+            <div class="occurence-description">
+              <p class="short-news"></p>
+              <a
+                href="https://www.publico.pt/2024/07/08/azul/noticia/afinal-passa-tempo-nada-indica-julho-sera-frio-chuvoso-ipma-2096754"
+                >Read</a
+              >
+            </div>
+          </div>
+          <div class="occurence">
+            <h3>Extreme weather in Europe</h3>
+            <div class="occurence-picture"></div>
+            <div class="occurence-description">
+              <p class="short-news">
+                <a
+                  href="https://consultancy.eu/news/10345/extreme-weather-in-europe-taking-toll-on-food-supply-chains"
+                  >Read</a
+                >
+              </p>
+            </div>
+          </div>
+          <div class="occurence">
+            <h3>UK weather: Heavy downpours</h3>
+            <div class="occurence-picture"></div>
+            <div class="occurence-description">
+              <p class="short-news">
+                <a
+                  href="https://news.sky.com/story/uk-weather-heavy-downpours-set-to-batter-parts-of-country-as-yellow-warnings-for-rain-issued-13175046"
+                  >Read</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
