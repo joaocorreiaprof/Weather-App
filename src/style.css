@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  overflow: hidden;
 }
 
 :root {
@@ -13,12 +14,30 @@
 body {
   width: 100vw;
   height: 100vh;
-  background-image: var(--background-image-light);
+  background-image: var(--background-image-dark);
   background-size: cover;
-  color: var(--text-color-light);
+  color: var(--text-color-dark);
 }
 
 .dark-mode {
   background-image: var(--background-image-dark);
   color: var(--text-color-dark);
+}
+
+/*Content*/
+.content {
+  display: flex;
+}
+
+/*Left Content*/
+.left-content {
+  height: 100vh;
+  width: 80%;
+  border: 1px solid white;
+}
+/*Right Content*/
+
+.right-content {
+  width: 20%;
+  border: 1px solid white;
 }
