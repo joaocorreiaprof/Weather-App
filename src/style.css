@@ -22,7 +22,7 @@ body {
   display: grid;
   gap: 4px;
   border: 2px solid black;
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr); /* Adjusted rows */
   grid-template-columns: repeat(3, 1fr);
   flex-grow: 1; /* Allow it to grow */
   padding: 7px;
@@ -32,22 +32,7 @@ body {
 .title-input {
   grid-column: 1 / 2;
   grid-row: 1 / 2;
-  /*background-color: rgb(241, 238, 238);*/
-  display: flex;
-  flex-direction: column;
-}
-
-h1 {
-  color: #00a0c6;
-}
-
-#search {
-  padding: 2.5px;
-  border-radius: 15px;
-}
-
-.input-form {
-  margin-top: 100px;
+  background-color: red;
 }
 .current-day {
   grid-column: 1 / 2;
@@ -64,10 +49,15 @@ h1 {
   grid-row: 3 / 4;
   background-color: yellow;
 }
+.daily-info {
+  grid-column: 2 / 3; /* Positioned in the second column */
+  grid-row: 1 / 3; /* Spanning rows 1 to 3 */
+  background-color: rgb(126, 126, 89);
+}
 .weather-info {
   grid-column: 3 / 4;
-  grid-row: 1 / 4;
-  background-color: #025c72;
+  grid-row: 1 / 4; /* Adjusted to span 3 rows */
+  background-color: #37bee0;
 }
 
 @media (max-width: 1200px) {
@@ -86,25 +76,30 @@ h1 {
   .left-content {
     width: 100%; /* Full width on small screens */
     height: auto; /* Allow height to adjust */
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(2, 1fr); /* Change to 2 columns */
+    grid-template-rows: repeat(6, 1fr); /* Adjust rows to fill space */
   }
 
   .title-input,
   .current-day,
   .second-day,
   .third-day,
-  .weather-info {
-    grid-column: auto / span 2;
-    grid-row: auto / span 1;
+  .weather-info,
+  .daily-info {
+    grid-column: auto / span 2; /* Full width on small screens */
+    grid-row: auto / span 1; /* Adjust to fill space */
   }
 
   .title-input {
-    grid-column: 1 / 3;
+    grid-column: 1 / 3; /* Full width on small screens */
   }
   .weather-info {
-    grid-column: 1 / 3;
-    grid-row: 3 / 6;
+    grid-column: 1 / 3; /* Full width on small screens */
+    grid-row: 3 / 6; /* Adjust height to fill space */
+  }
+  .daily-info {
+    grid-column: 1 / 3; /* Full width on small screens */
+    grid-row: 1 / 3; /* Position at the bottom */
   }
 }
 

@@ -2,8 +2,8 @@ import "./style.css";
 import { fetchWeather } from "./modules/fetchWeather";
 import { displayImages } from "./modules/newsImages";
 
-fetchWeather();
 displayImages();
+fetchWeather();
 
 const searchButton = document.getElementById("searchButton");
 searchButton.addEventListener("click", () => {
