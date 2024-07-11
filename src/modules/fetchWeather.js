@@ -1,5 +1,4 @@
 import { displayDailyInfo } from "./dailyInfo";
-import { weatherInfo } from "./weatherInfo";
 import { currentDay } from "./currentDay";
 
 async function fetchWeather(searchTerm = "aveiro") {
@@ -10,7 +9,7 @@ async function fetchWeather(searchTerm = "aveiro") {
     let data = await response.json();
     console.log(data);
     displayDailyInfo(data);
-    weatherInfo(data);
+    //weatherInfo(data);
     currentDay(data);
   } catch (error) {
     console.error("Error fetching the weather:", error);
