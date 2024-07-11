@@ -22,9 +22,9 @@ body {
   display: grid;
   gap: 4px;
   border: 2px solid black;
-  grid-template-rows: repeat(3, 1fr); /* Adjusted rows */
+  grid-template-rows: repeat(3, 1fr);
   grid-template-columns: repeat(3, 1fr);
-  flex-grow: 1; /* Allow it to grow */
+  flex-grow: 1;
   padding: 7px;
   box-sizing: border-box; /* Ensure padding is included in width */
 }
@@ -32,32 +32,65 @@ body {
 .title-input {
   grid-column: 1 / 2;
   grid-row: 1 / 2;
-  background-color: red;
+  display: flex;
+  flex-direction: column;
 }
+
+h1 {
+  color: #00a0c6;
+}
+
+.input-form {
+  margin-top: 50px;
+}
+
+#search {
+  padding: 3px;
+  border-radius: 10px;
+}
+
+#searchButton {
+  padding: 3px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
 .current-day {
   grid-column: 1 / 2;
   grid-row: 2 / 3;
-  background-color: blue;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
 .second-day {
   grid-column: 1 / 2;
   grid-row: 3 / 4;
-  background-color: green;
+  border: 1px solid black;
 }
 .third-day {
   grid-column: 2 / 3;
   grid-row: 3 / 4;
-  background-color: yellow;
+  border: 1px solid black;
 }
 .daily-info {
-  grid-column: 2 / 3; /* Positioned in the second column */
-  grid-row: 1 / 3; /* Spanning rows 1 to 3 */
-  background-color: rgb(126, 126, 89);
+  grid-column: 2 / 3;
+  grid-row: 1 / 3;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
 .weather-info {
   grid-column: 3 / 4;
-  grid-row: 1 / 4; /* Adjusted to span 3 rows */
-  background-color: #37bee0;
+  grid-row: 1 / 4;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
 
 @media (max-width: 1200px) {
@@ -74,10 +107,10 @@ body {
 
 @media (max-width: 768px) {
   .left-content {
-    width: 100%; /* Full width on small screens */
-    height: auto; /* Allow height to adjust */
-    grid-template-columns: repeat(2, 1fr); /* Change to 2 columns */
-    grid-template-rows: repeat(6, 1fr); /* Adjust rows to fill space */
+    width: 100%;
+    height: auto;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 1fr);
   }
 
   .title-input,
@@ -86,20 +119,20 @@ body {
   .third-day,
   .weather-info,
   .daily-info {
-    grid-column: auto / span 2; /* Full width on small screens */
-    grid-row: auto / span 1; /* Adjust to fill space */
+    grid-column: auto / span 2;
+    grid-row: auto / span 1;
   }
 
   .title-input {
-    grid-column: 1 / 3; /* Full width on small screens */
+    grid-column: 1 / 3;
   }
   .weather-info {
-    grid-column: 1 / 3; /* Full width on small screens */
-    grid-row: 3 / 6; /* Adjust height to fill space */
+    grid-column: 1 / 3;
+    grid-row: 3 / 6;
   }
   .daily-info {
-    grid-column: 1 / 3; /* Full width on small screens */
-    grid-row: 1 / 3; /* Position at the bottom */
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
   }
 }
 
@@ -110,8 +143,8 @@ body {
   width: 15%;
   padding: 7px;
   border-left: 1px solid #00a0c6;
-  box-sizing: border-box; /* Ensure padding is included in width */
-  overflow-y: auto; /* Add scrollbar if content overflows */
+  box-sizing: border-box;
+  overflow-y: auto;
 }
 
 @media (max-width: 1200px) {
@@ -128,9 +161,9 @@ body {
 
 @media (max-width: 768px) {
   .right-content {
-    width: 100%; /* Full width on small screens */
-    border-left: none; /* Remove border on small screens */
-    border-top: 1px solid #00a0c6; /* Add top border instead */
+    width: 100%;
+    border-left: none;
+    border-top: 1px solid #00a0c6;
   }
 }
 
