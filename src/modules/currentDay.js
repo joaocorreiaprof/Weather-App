@@ -18,6 +18,6 @@ function currentDay(data) {
 
   currentHumidity.innerHTML = "Humidity: " + data.current.humidity + "%";
 
-  currentWindKph.innerHTML = "Wind Speed: " + data.current.wind_kph + "kph";
+  currentWindKph.innerHTML = "Wind Speed: " + data.current.wind_kph + " kph";
 }
 export { currentDay };
