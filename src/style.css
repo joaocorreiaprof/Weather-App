@@ -80,17 +80,27 @@ h1 {
   border: 1px solid black;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
 }
 .weather-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   grid-column: 3 / 4;
   grid-row: 1 / 4;
   border: 1px solid black;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
+}
+
+#timeWidget {
+  font-size: 2em;
+  padding: 20px;
+  border: 2px solid #00a0c6;
+  border-radius: 10px;
+  background-color: #f0f0f0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 @media (max-width: 1200px) {

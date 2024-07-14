@@ -1,7 +1,7 @@
-import { displayDailyInfo } from "./dailyInfo";
 import { currentDay } from "./currentDay";
 import { secondDay } from "./secondDay";
 import { thirdDay } from "./thirdDay";
+import { weatherPerHour } from "./weatherInfo";
 
 async function fetchWeather(searchTerm = "aveiro") {
   let link = `https://api.weatherapi.com/v1/forecast.json?key=6faa5075dd9445cfb4c215331240207&q=${searchTerm}&days=3`;
@@ -10,9 +10,9 @@ async function fetchWeather(searchTerm = "aveiro") {
     let response = await fetch(link, { mode: "cors" });
     let data = await response.json();
     console.log("Current day weather:", data);
-    displayDailyInfo(data);
 
     currentDay(data);
+    weatherPerHour(data);
 
     // Log information about the next day
     if (
